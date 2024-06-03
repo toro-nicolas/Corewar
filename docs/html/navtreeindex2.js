@@ -1,5 +1,15 @@
 var NAVTREEINDEX2 =
 {
+"lib_2mymemory_2my_8h.html#a7b2496447ae100d83d77fe781d4a4558":[2,0,1,2,0,62],
+"lib_2mymemory_2my_8h.html#a82df5be1f3ffc9a6c980fa963a3d2800":[2,0,1,2,0,25],
+"lib_2mymemory_2my_8h.html#a8bab8174e612b211174aed039aece789":[2,0,1,2,0,8],
+"lib_2mymemory_2my_8h.html#a8e504ec3dfb0f71af41fad937613ca67":[2,0,1,2,0,5],
+"lib_2mymemory_2my_8h.html#a8f5ba9f27b23bec984994e47272a968f":[2,0,1,2,0,34],
+"lib_2mymemory_2my_8h.html#a95752a5400e1b44aab5a6afd45118cf3":[2,0,1,2,0,39],
+"lib_2mymemory_2my_8h.html#a99d8eef4ddca16d64283778792d07a1f":[2,0,1,2,0,70],
+"lib_2mymemory_2my_8h.html#a9c465e15ebc7727578ee5407d1f5930c":[2,0,1,2,0,29],
+"lib_2mymemory_2my_8h.html#a9ee248793cda13367ba0ee61b4463228":[2,0,1,2,0,22],
+"lib_2mymemory_2my_8h.html#a9ee8c006b67ff9427dda3ec808d0b186":[2,0,1,2,0,68],
 "lib_2mymemory_2my_8h.html#aa0b72fe06358e0540f534cbd4a77fbe7":[2,0,1,2,0,31],
 "lib_2mymemory_2my_8h.html#aa2f4356b6cb70c280bac520f68868c5d":[2,0,1,2,0,12],
 "lib_2mymemory_2my_8h.html#aa6386bacc109fe5e088fa6b21aefda38":[2,0,1,2,0,77],
@@ -70,8 +80,8 @@ var NAVTREEINDEX2 =
 "lib_2mymemory_2mymemory_8h.html#aeff32b685c9df20745475c500c032ea7":[2,0,1,2,13,6],
 "lib_2mymemory_2mymemory_8h.html#af13f5c5d07651a5c0c5732ecd7a45162":[2,0,1,2,13,10],
 "lib_2mymemory_2mymemory_8h_source.html":[2,0,1,2,13],
-"main_8c.html":[2,0,2,2],
-"main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627":[2,0,2,2,0],
+"main_8c.html":[2,0,2,3],
+"main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627":[2,0,2,3,0],
 "md_README.html":[0],
 "md_README.html#autotoc_md1":[0,0],
 "md_README.html#autotoc_md10":[0,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX2 =
 "my__showmem_8c.html":[2,0,1,0,49],
 "my__showmem_8c.html#ab182cdeb9be4a88950cc36750547788d":[2,0,1,0,49,0],
 "my__showstr_8c.html":[2,0,1,0,50],
-"my__showstr_8c.html#a08e055991b62da4b550a8905a0b17cdb":[2,0,1,0,50,0],
-"my__sort__int__array_8c.html":[2,0,1,0,51],
-"my__sort__int__array_8c.html#ac4ac17b559bd0cc09f3f38805e9846d3":[2,0,1,0,51,0],
-"my__sort__list_8c.html":[2,0,1,1,19],
-"my__sort__list_8c.html#adb5d70f592cd1efbbebf27a90c8023fd":[2,0,1,1,19,0],
-"my__sort__params_8c.html":[2,0,1,0,52],
-"my__sort__params_8c.html#a04d20ad69283422e11535de64948c263":[2,0,1,0,52,0],
-"my__str__contains_8c.html":[2,0,1,0,53],
-"my__str__contains_8c.html#a64740463978ffcb93171ce961e0c4a30":[2,0,1,0,53,0],
-"my__str__is_8c.html":[2,0,1,0,54],
-"my__str__is_8c.html#a4d764cc884eb9fcc9256ef5e9986e44a":[2,0,1,0,54,0]
+"my__showstr_8c.html#a08e055991b62da4b550a8905a0b17cdb":[2,0,1,0,50,0]
 };

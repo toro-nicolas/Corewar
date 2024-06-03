@@ -2,3 +2,7 @@
 docs/html/* linguist-detectable=false
 docs/html/search/* linguist-detectable=false
 docs/tests/* linguist-detectable=false
+bonus/docs/html/* linguist-detectable=false
+bonus/docs/html/search/* linguist-detectable=false
+bonus/docs/tests/* linguist-detectable=false
+

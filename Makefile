@@ -14,22 +14,48 @@ BUILDDIR 	=	./build
 SRCDIR		=	./src
 
 SRCS		+=	main.c
+SRCS		+=	instructions/add.c
+SRCS		+=	instructions/aff.c
+SRCS		+=	instructions/and.c
+SRCS		+=	instructions/fork.c
+SRCS		+=	instructions/ld.c
+SRCS		+=	instructions/ldi.c
+SRCS		+=	instructions/lfork.c
+SRCS		+=	instructions/live.c
+SRCS		+=	instructions/lld.c
+SRCS		+=	instructions/lldi.c
+SRCS		+=	instructions/or.c
+SRCS		+=	instructions/st.c
+SRCS		+=	instructions/sti.c
+SRCS		+=	instructions/sub.c
+SRCS		+=	instructions/xor.c
+SRCS		+=	instructions/zjmp.c
+SRCS		+=	arena.c
 SRCS		+=	champion.c
+SRCS		+=	coding_byte.c
 SRCS		+=	corewar.c
 SRCS		+=	header.c
+SRCS		+=	instructions.c
 SRCS		+=	op.c
 SRCS		+=	parsing.c
 SRCS		+=	read_file.c
+SRCS		+=	state.c
+SRCS		+=	update.c
 
 OBJS     	=	$(addprefix $(BUILDDIR)/, $(notdir $(SRCS:.c=.o)))
 
 CFLAGS		=	-Werror -Wextra -I./include/
 DEBUGFLAGS	=	-g3
 OPTIMIZEFLAGS	=	-O3
+VALGRINDFLAGS	=	--leak-check=full --show-leak-kinds=all --track-origins=yes
+OUTPUT		=	valgrind.log
 
 LDFLAGS 	=	-L./lib/ -lmymemory -lmylist -lmy
 
-.PHONY: all libs create-build debug clean fclean re unit_tests tests_run
+TEST_ARGS	=	-d 10 -n 1 champions/42.cor -n 10 champions/42.cor
+
+.PHONY: all libs create-build debug valgrind clean fclean re \
+		unit_tests tests_run doc
 
 all: create-build libs $(BUILDDIR) $(NAME)
 	@echo -e "\033[1;33m$(NAME) compiled.\033[0m"
@@ -44,6 +70,9 @@ create-build:
 	@mkdir -p $(BUILDDIR)
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.c
+	$(CC) $(CFLAGS) $(OPTIMIZEFLAGS) $(LDFLAGS) -c $< -o $@
+
+$(BUILDDIR)/%.o: $(SRCDIR)/instructions/%.c
 	$(CC) $(CFLAGS) $(OPTIMIZEFLAGS) $(LDFLAGS) -c $< -o $@
 
 debug: CFLAGS += $(DEBUGFLAGS)
@@ -72,8 +101,8 @@ re:	fclean all
 re_debug: fclean debug
 
 valgrind: fclean debug
-	@echo -e "\033[0;36mExecuting valgrind...\033[0m"
-	@valgrind $(VALGRINDFLAGS) ./$(NAME) 2> $(OUTPUT)
+	@echo -e "\033[0;32mExecuting valgrind...\033[0m"
+	@valgrind $(VALGRINDFLAGS) ./$(NAME) $(TEST_ARGS) 2> $(OUTPUT)
 
 # Unit tests Makefile
 unit_tests:

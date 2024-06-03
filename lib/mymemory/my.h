@@ -15,6 +15,11 @@
 #include <stdarg.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <ctype.h>
+#include <math.h>
+#include <limits.h>
 #include <errno.h>
 #include <string.h>
 #include <fcntl.h>

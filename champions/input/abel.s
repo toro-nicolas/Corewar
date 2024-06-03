@@ -1,5 +1,5 @@
-	.name err"Abel"err
-	.comment err"L'amer noir."err
+	.name "Abel"
+	.comment "L'amer noir."
 
 	sti r1, %:hi, %1
 

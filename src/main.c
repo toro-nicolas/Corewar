@@ -17,7 +17,7 @@
  */
 static void display_help(void)
 {
-    my_fprintf(1, "USAGE\n\t./corewar [-dump nbr_cycle] [[-n prog_number]"
+    my_fprintf(2, "USAGE\n\t./corewar [-dump nbr_cycle] [[-n prog_number]"
         "[-a load_address] prog_name] ...\n\nDESCRIPTION\n\t-dump\tnbr_cycle"
         " dumps the memory after the nbr_cycle execution (if the round isn't"
         " already over) with the following format: 32 bytes/line in"
@@ -48,8 +48,7 @@ int main(int argc, char **argv)
         display_help();
         return 0;
     }
-    result = parse_args(argc, argv);
-    if (result == 84) {
+    if (parse_args(argc, argv) || build_arena()) {
         free_corewar();
         return 84;
     }

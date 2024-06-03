@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['table_20of_20contents_20📑_0',['Table of contents 📑',['../md_README.html#autotoc_md1',1,'']]],
-  ['test_5fmy_5flib_2ec_1',['test_my_lib.c',['../test__my__lib_8c.html',1,'']]],
-  ['test_5fmy_5fprintf_2ec_2',['test_my_printf.c',['../test__my__printf_8c.html',1,'']]],
-  ['test_5fmycsfml_5flib_2ec_3',['test_mycsfml_lib.c',['../test__mycsfml__lib_8c.html',1,'']]],
-  ['test_5fmyhashtable_5flib_2ec_4',['test_myhashtable_lib.c',['../test__myhashtable__lib_8c.html',1,'']]],
-  ['test_5fmylist_5flib_2ec_5',['test_mylist_lib.c',['../test__mylist__lib_8c.html',1,'']]],
-  ['test_5fmymemory_5flib_2ec_6',['test_mymemory_lib.c',['../test__mymemory__lib_8c.html',1,'']]],
-  ['tests_20and_20code_20coverage_7',['Tests and code coverage',['../md_README.html#autotoc_md6',1,'']]]
+  ['specifier_5fbase_2ec_0',['specifier_base.c',['../specifier__base_8c.html',1,'']]],
+  ['specifier_5fint_2ec_1',['specifier_int.c',['../specifier__int_8c.html',1,'']]],
+  ['sub_5fformat_5fchar_2ec_2',['sub_format_char.c',['../sub__format__char_8c.html',1,'']]],
+  ['sub_5fformat_5fdouble_2ec_3',['sub_format_double.c',['../sub__format__double_8c.html',1,'']]],
+  ['sub_5fformat_5fint_2ec_4',['sub_format_int.c',['../sub__format__int_8c.html',1,'']]],
+  ['sub_5fformat_5fstr_2ec_5',['sub_format_str.c',['../sub__format__str_8c.html',1,'']]]
 ];

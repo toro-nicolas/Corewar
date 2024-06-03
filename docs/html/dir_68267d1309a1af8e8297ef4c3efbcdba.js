@@ -1,5 +1,6 @@
 var dir_68267d1309a1af8e8297ef4c3efbcdba =
 [
+    [ "arena.c", "arena_8c.html", "arena_8c" ],
     [ "champion.c", "champion_8c.html", "champion_8c" ],
     [ "header.c", "header_8c.html", "header_8c" ],
     [ "main.c", "main_8c.html", "main_8c" ],

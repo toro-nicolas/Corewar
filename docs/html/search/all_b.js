@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['parse_5fargs_0',['parse_args',['../corewar_8h.html#a55aa1b5ebb750b1c8ab1cb75baff4adf',1,'parse_args(int argc, char **argv):&#160;parsing.c'],['../parsing_8c.html#a55aa1b5ebb750b1c8ab1cb75baff4adf',1,'parse_args(int argc, char **argv):&#160;parsing.c']]],
-  ['parsing_2ec_1',['parsing.c',['../parsing_8c.html',1,'']]],
-  ['precise_5fit_5fdouble_2ec_2',['precise_it_double.c',['../precise__it__double_8c.html',1,'']]],
-  ['precise_5fit_5fint_2ec_3',['precise_it_int.c',['../precise__it__int_8c.html',1,'']]]
+  ['of_20contents_20📑_0',['Table of contents 📑',['../md_README.html#autotoc_md1',1,'']]],
+  ['op_2ec_1',['op.c',['../op_8c.html',1,'']]],
+  ['op_5fs_2',['op_s',['../structop__s.html',1,'']]],
+  ['op_5ftab_3',['op_tab',['../myop_8h.html#a9f737191e90783de09e368275aeef2d7',1,'op_tab:&#160;op.c'],['../op_8c.html#a9f737191e90783de09e368275aeef2d7',1,'op_tab:&#160;op.c']]]
 ];

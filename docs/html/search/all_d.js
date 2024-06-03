@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['specifier_5fbase_2ec_0',['specifier_base.c',['../specifier__base_8c.html',1,'']]],
-  ['specifier_5fint_2ec_1',['specifier_int.c',['../specifier__int_8c.html',1,'']]],
-  ['sub_5fformat_5fchar_2ec_2',['sub_format_char.c',['../sub__format__char_8c.html',1,'']]],
-  ['sub_5fformat_5fdouble_2ec_3',['sub_format_double.c',['../sub__format__double_8c.html',1,'']]],
-  ['sub_5fformat_5fint_2ec_4',['sub_format_int.c',['../sub__format__int_8c.html',1,'']]],
-  ['sub_5fformat_5fstr_2ec_5',['sub_format_str.c',['../sub__format__str_8c.html',1,'']]]
+  ['read_5ffile_0',['read_file',['../corewar_8h.html#ae4a6c04e4dde2ce3ec80291732f1dccb',1,'read_file(char *filepath, int size, int start):&#160;read_file.c'],['../read__file_8c.html#ae4a6c04e4dde2ce3ec80291732f1dccb',1,'read_file(char *filepath, int size, int start):&#160;read_file.c']]],
+  ['read_5ffile_2ec_1',['read_file.c',['../read__file_8c.html',1,'']]],
+  ['result_2',['my.epitech.eu result',['../md_README.html#autotoc_md5',1,'']]],
+  ['result_20🚩_3',['Result 🚩',['../md_README.html#autotoc_md4',1,'']]],
+  ['round_5fflag_5fa_2ec_4',['round_flag_a.c',['../round__flag__a_8c.html',1,'']]]
 ];

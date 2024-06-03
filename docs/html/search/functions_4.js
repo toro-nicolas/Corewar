@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['is_5fvalid_5fmagic_0',['is_valid_magic',['../corewar_8h.html#a884f90335bdffab7f0bb26283dfcd70a',1,'is_valid_magic(char *header):&#160;header.c'],['../header_8c.html#a884f90335bdffab7f0bb26283dfcd70a',1,'is_valid_magic(char *header):&#160;header.c']]]
+  ['free_5fcorewar_0',['free_corewar',['../corewar_8h.html#ab8f3af910f1c0b26c5b040174740aeee',1,'corewar.c']]]
 ];

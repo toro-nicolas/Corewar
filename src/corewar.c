@@ -5,7 +5,7 @@
 ** The file containing the corewar functions
 */
 /**
- * @file corewar_init.c
+ * @file corewar.c
  * @brief The file containing the corewar functions
  */
 
@@ -18,7 +18,13 @@
 corewar_t *get_corewar(void)
 {
     static corewar_t corewar = {0};
+    static int start = 1;
 
+    if (start) {
+        corewar.total_cycle = 1;
+        corewar.nbr_cycle = CYCLE_TO_DIE;
+        start = 0;
+    }
     return &corewar;
 }
 
@@ -32,6 +38,10 @@ void free_corewar(void)
 
     if (corewar == NULL)
         return;
+    if (corewar->champions != NULL)
+        my_delete_list(&corewar->champions);
+    if (corewar->arena != NULL)
+        my_delete_circle_list(&corewar->arena);
     my_free();
 }
 
@@ -43,7 +53,17 @@ int corewar(void)
 {
     corewar_t *corewar = get_corewar();
 
-    if (corewar == NULL)
-        return 84;
+    while (check_champions_number(corewar->champions)) {
+        if (corewar->dump_cycle != 0 &&
+        corewar->total_cycle % corewar->dump_cycle == 0)
+            display_arena();
+        if (corewar->total_cycle % corewar->nbr_cycle == 0)
+            check_alive_champions();
+        for (node_t *tmp = corewar->champions; tmp != NULL; tmp = tmp->next)
+            execute_instructions((champion_t *)tmp->data);
+        corewar->total_cycle = (corewar->total_cycle + 1 > corewar->nbr_cycle)
+            ? 1 : corewar->total_cycle + 1;
+    }
+    display_winner(corewar->champions);
     return 0;
 }
