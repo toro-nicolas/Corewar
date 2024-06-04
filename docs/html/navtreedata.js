@@ -36,7 +36,8 @@ var NAVTREE =
       [ "Compilation 🛠️", "md_README.html#autotoc_md7", null ],
       [ "Documentation 📚", "md_README.html#autotoc_md8", null ],
       [ "Code mandatory 📦", "md_README.html#autotoc_md9", null ],
-      [ "Contributors 👥", "md_README.html#autotoc_md10", null ]
+      [ "What's next ? 🚀", "md_README.html#autotoc_md10", null ],
+      [ "Contributors 👥", "md_README.html#autotoc_md11", null ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -57,9 +58,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"lib_2my_2my_8h.html#a2f6b44ca5b8491a8379bf9c159d3e8db",
-"lib_2mymemory_2my_8h.html#a7b2496447ae100d83d77fe781d4a4558",
-"my__sort__int__array_8c.html"
+"bonus_2lib_2my_2my_8h.html#a99d8eef4ddca16d64283778792d07a1f",
+"bonus_2lib_2my_2my__strncat_8c.html",
+"bonus_2lib_2mymemory_2my_8h.html#ab6bb513ea057b7777ea9de249b100779",
+"include_2corewar_8h.html#ab4702ad1e08abdb0c7e2a3802bb8b05b",
+"lib_2my_2my_8h.html#af78a3a537dc6765804efd3483da0842a",
+"lib_2mylist_2my_8h.html#a256710f18187abd591388e8280886a1e",
+"lib_2mymemory_2my__malloc__strndup_8c.html#a161966d6de4894bec46cb88ca40f535b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

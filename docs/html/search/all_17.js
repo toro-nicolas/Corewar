@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['📦_0',['Code mandatory 📦',['../md_README.html#autotoc_md9',1,'']]]
+  ['💻_20corewar_20🗡️_0',['💻 Corewar 🗡️',['../md_README.html',1,'']]]
 ];

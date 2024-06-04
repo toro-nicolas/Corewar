@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['🚩_0',['Result 🚩',['../md_README.html#autotoc_md5',1,'']]]
+  ['📦_0',['Code mandatory 📦',['../md_README.html#autotoc_md9',1,'']]]
 ];

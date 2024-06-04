@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['of_20contents_20📑_0',['Table of contents 📑',['../md_README.html#autotoc_md1',1,'']]],
-  ['op_2ec_1',['op.c',['../op_8c.html',1,'']]],
-  ['op_5fs_2',['op_s',['../structop__s.html',1,'']]],
-  ['op_5ftab_3',['op_tab',['../myop_8h.html#a9f737191e90783de09e368275aeef2d7',1,'op_tab:&#160;op.c'],['../op_8c.html#a9f737191e90783de09e368275aeef2d7',1,'op_tab:&#160;op.c']]]
+  ['next_20🚀_0',['What&apos;s next ? 🚀',['../md_README.html#autotoc_md10',1,'']]],
+  ['node_5fs_1',['node_s',['../structnode__s.html',1,'']]],
+  ['number_5fsettings_5fs_2',['number_settings_s',['../structnumber__settings__s.html',1,'']]]
 ];

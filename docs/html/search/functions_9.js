@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['read_5ffile_0',['read_file',['../corewar_8h.html#ae4a6c04e4dde2ce3ec80291732f1dccb',1,'read_file(char *filepath, int size, int start):&#160;read_file.c'],['../read__file_8c.html#ae4a6c04e4dde2ce3ec80291732f1dccb',1,'read_file(char *filepath, int size, int start):&#160;read_file.c']]]
+  ['parse_5fargs_0',['parse_args',['../bonus_2include_2corewar_8h.html#a55aa1b5ebb750b1c8ab1cb75baff4adf',1,'parse_args(int argc, char **argv):&#160;parsing.c'],['../bonus_2src_2parsing_8c.html#a55aa1b5ebb750b1c8ab1cb75baff4adf',1,'parse_args(int argc, char **argv):&#160;parsing.c'],['../include_2corewar_8h.html#a55aa1b5ebb750b1c8ab1cb75baff4adf',1,'parse_args(int argc, char **argv):&#160;parsing.c'],['../src_2parsing_8c.html#a55aa1b5ebb750b1c8ab1cb75baff4adf',1,'parse_args(int argc, char **argv):&#160;parsing.c']]]
 ];
