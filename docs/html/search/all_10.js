@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['table_20of_20contents_20📑_0',['Table of contents 📑',['../md_README.html#autotoc_md1',1,'']]],
-  ['test_5fmy_5flib_2ec_1',['test_my_lib.c',['../bonus_2tests_2test__my__lib_8c.html',1,'(Global Namespace)'],['../tests_2test__my__lib_8c.html',1,'(Global Namespace)']]],
-  ['test_5fmy_5fprintf_2ec_2',['test_my_printf.c',['../bonus_2tests_2test__my__printf_8c.html',1,'(Global Namespace)'],['../tests_2test__my__printf_8c.html',1,'(Global Namespace)']]],
-  ['test_5fmycsfml_5flib_2ec_3',['test_mycsfml_lib.c',['../bonus_2tests_2test__mycsfml__lib_8c.html',1,'(Global Namespace)'],['../tests_2test__mycsfml__lib_8c.html',1,'(Global Namespace)']]],
-  ['test_5fmyhashtable_5flib_2ec_4',['test_myhashtable_lib.c',['../bonus_2tests_2test__myhashtable__lib_8c.html',1,'(Global Namespace)'],['../tests_2test__myhashtable__lib_8c.html',1,'(Global Namespace)']]],
-  ['test_5fmylist_5flib_2ec_5',['test_mylist_lib.c',['../bonus_2tests_2test__mylist__lib_8c.html',1,'(Global Namespace)'],['../tests_2test__mylist__lib_8c.html',1,'(Global Namespace)']]],
-  ['test_5fmymemory_5flib_2ec_6',['test_mymemory_lib.c',['../bonus_2tests_2test__mymemory__lib_8c.html',1,'(Global Namespace)'],['../tests_2test__mymemory__lib_8c.html',1,'(Global Namespace)']]],
-  ['tests_20and_20code_20coverage_7',['Tests and code coverage',['../md_README.html#autotoc_md6',1,'']]],
-  ['touch_2ec_8',['touch.c',['../touch_8c.html',1,'']]]
+  ['s_20next_20🚀_0',['What&apos;s next ? 🚀',['../md_README.html#autotoc_md11',1,'']]],
+  ['set_5fcolor_1',['set_color',['../bonus_2include_2corewar_8h.html#aaee93bafaed67e121adf789350ad8475',1,'set_color(int address, char *owner):&#160;display.c'],['../display_8c.html#aaee93bafaed67e121adf789350ad8475',1,'set_color(int address, char *owner):&#160;display.c']]],
+  ['specifier_5fbase_2ec_2',['specifier_base.c',['../bonus_2lib_2my_2my__printf_2specifier__base_8c.html',1,'(Global Namespace)'],['../lib_2my_2my__printf_2specifier__base_8c.html',1,'(Global Namespace)']]],
+  ['specifier_5fint_2ec_3',['specifier_int.c',['../bonus_2lib_2my_2my__printf_2specifier__int_8c.html',1,'(Global Namespace)'],['../lib_2my_2my__printf_2specifier__int_8c.html',1,'(Global Namespace)']]],
+  ['st_2ec_4',['st.c',['../bonus_2src_2instructions_2st_8c.html',1,'(Global Namespace)'],['../src_2instructions_2st_8c.html',1,'(Global Namespace)']]],
+  ['state_2ec_5',['state.c',['../bonus_2src_2state_8c.html',1,'(Global Namespace)'],['../src_2state_8c.html',1,'(Global Namespace)']]],
+  ['sti_2ec_6',['sti.c',['../bonus_2src_2instructions_2sti_8c.html',1,'(Global Namespace)'],['../src_2instructions_2sti_8c.html',1,'(Global Namespace)']]],
+  ['sub_2ec_7',['sub.c',['../bonus_2src_2instructions_2sub_8c.html',1,'(Global Namespace)'],['../src_2instructions_2sub_8c.html',1,'(Global Namespace)']]],
+  ['sub_5fformat_5fchar_2ec_8',['sub_format_char.c',['../bonus_2lib_2my_2my__printf_2sub__format__char_8c.html',1,'(Global Namespace)'],['../lib_2my_2my__printf_2sub__format__char_8c.html',1,'(Global Namespace)']]],
+  ['sub_5fformat_5fdouble_2ec_9',['sub_format_double.c',['../bonus_2lib_2my_2my__printf_2sub__format__double_8c.html',1,'(Global Namespace)'],['../lib_2my_2my__printf_2sub__format__double_8c.html',1,'(Global Namespace)']]],
+  ['sub_5fformat_5fint_2ec_10',['sub_format_int.c',['../bonus_2lib_2my_2my__printf_2sub__format__int_8c.html',1,'(Global Namespace)'],['../lib_2my_2my__printf_2sub__format__int_8c.html',1,'(Global Namespace)']]],
+  ['sub_5fformat_5fstr_2ec_11',['sub_format_str.c',['../bonus_2lib_2my_2my__printf_2sub__format__str_8c.html',1,'(Global Namespace)'],['../lib_2my_2my__printf_2sub__format__str_8c.html',1,'(Global Namespace)']]]
 ];

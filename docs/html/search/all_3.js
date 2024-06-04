@@ -7,5 +7,5 @@ var searchData=
   ['display_5fcorewar_4',['display_corewar',['../bonus_2include_2corewar_8h.html#a0ee64bb74fcc79d509e9846320bdfbd9',1,'display_corewar(corewar_t *corewar):&#160;display.c'],['../display_8c.html#a0ee64bb74fcc79d509e9846320bdfbd9',1,'display_corewar(corewar_t *corewar):&#160;display.c']]],
   ['display_5fregister_5',['display_register',['../display_8c.html#a5722e671d8ce9a9720cdffabaa51da01',1,'display.c']]],
   ['display_5fwinner_6',['display_winner',['../bonus_2include_2corewar_8h.html#ae137af95a73211af6ef396acdce93882',1,'display_winner(node_t *champions):&#160;state.c'],['../bonus_2src_2state_8c.html#ae137af95a73211af6ef396acdce93882',1,'display_winner(node_t *champions):&#160;state.c'],['../include_2corewar_8h.html#ae137af95a73211af6ef396acdce93882',1,'display_winner(node_t *champions):&#160;state.c'],['../src_2state_8c.html#ae137af95a73211af6ef396acdce93882',1,'display_winner(node_t *champions):&#160;state.c']]],
-  ['documentation_20📚_7',['Documentation 📚',['../md_README.html#autotoc_md8',1,'']]]
+  ['documentation_20📚_7',['Documentation 📚',['../md_README.html#autotoc_md9',1,'']]]
 ];

@@ -52,6 +52,35 @@ If you discover a **problem** or an **error**, don't hesitate to **create an iss
 | **Results**    |  **100%**  |     **1/1**      |  **No**  |
 
 
+### Keynote result
+We got the **best Corewar** of **our class**.
+
+Project Mark :
+```
+Mark : 12
+Preliminary (2 / 2) :
+
+Virtual Machine - Basics (5 / 5) :
+Tout ok
+Virtual Machine - Algorithm app. (3 / 3) :
+Tout est prévisible
+Virtual Machine - Scheduling (2 / 2) :
+OK
+```
+
+Oral Mark :
+```
+Mark : 4341
+Testing Policy (1 / 4) :
+Tests unitaires librairie
+Methodology and Organisation (40 / 40) :
+
+Involvment (300 / 400) :
+graphique ncurses
+Oral Presentation (4000 / 4000) :
+```
+
+
 ### Tests and code coverage
 Functional tests were carried out with a **bash tester** and **unit tests** using [criterion](https://criterion.readthedocs.io/en/master/intro.html).  
 Unit tests are still to be performed, but a large part of the code is already covered:

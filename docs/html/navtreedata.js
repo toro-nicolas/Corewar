@@ -31,13 +31,14 @@ var NAVTREE =
       [ "Usage ⚔️", "md_README.html#autotoc_md3", null ],
       [ "Result 🚩", "md_README.html#autotoc_md4", [
         [ "my.epitech.eu result", "md_README.html#autotoc_md5", null ],
-        [ "Tests and code coverage", "md_README.html#autotoc_md6", null ]
+        [ "Keynote result", "md_README.html#autotoc_md6", null ],
+        [ "Tests and code coverage", "md_README.html#autotoc_md7", null ]
       ] ],
-      [ "Compilation 🛠️", "md_README.html#autotoc_md7", null ],
-      [ "Documentation 📚", "md_README.html#autotoc_md8", null ],
-      [ "Code mandatory 📦", "md_README.html#autotoc_md9", null ],
-      [ "What's next ? 🚀", "md_README.html#autotoc_md10", null ],
-      [ "Contributors 👥", "md_README.html#autotoc_md11", null ]
+      [ "Compilation 🛠️", "md_README.html#autotoc_md8", null ],
+      [ "Documentation 📚", "md_README.html#autotoc_md9", null ],
+      [ "Code mandatory 📦", "md_README.html#autotoc_md10", null ],
+      [ "What's next ? 🚀", "md_README.html#autotoc_md11", null ],
+      [ "Contributors 👥", "md_README.html#autotoc_md12", null ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
