@@ -82,20 +82,13 @@ Oral Presentation (4000 / 4000) :
 
 
 ### Tests and code coverage
-Functional tests were carried out with a **bash tester** and **unit tests** using [criterion](https://criterion.readthedocs.io/en/master/intro.html).  
+**Unit tests** were performed using [criterion](https://criterion.readthedocs.io/en/master/intro.html).  
+In this project, **only** the **library code is covered**.
 Unit tests are still to be performed, but a large part of the code is already covered:
 - Lines: 99.9%
 - Functions: 100%
 - Branches:	45.5%
 
-You can run the tester with this command :
-```sh
-./tester.sh
-```
-You can compile the project and run the tester with this command :
-```sh
-make tests
-```
 You can compile the project and run the unit tests with this command :
 ```sh
 make tests_run
