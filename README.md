@@ -129,6 +129,7 @@ You need multiple package for generate them :
 ## What's next ? 🚀
 - Recheck each instruction to ensure correct operation
 - Add new instructions
+- Add background music for the graphical interface
 - Add unit tests on each piece of code
 
 
