@@ -15,8 +15,6 @@
 *.o
 *.a
 a.out
-asm
-vm
 corewar
 libcsfml-graphics.so.2.6
 
