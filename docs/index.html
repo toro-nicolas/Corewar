@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#💻-corewar-🗡️">💻 Corewar 🗡️</a>
+<ul>
+<li><a href="#table-of-contents-📑">Table of contents 📑</a></li>
+<li><a href="#description-📝">Description 📝</a></li>
+<li><a href="#usage-⚔️">Usage ⚔️</a></li>
+<li><a href="#result-🚩">Result 🚩</a></li>
+<li><a href="#compilation-🛠️">Compilation 🛠️</a></li>
+<li><a href="#documentation-📚">Documentation 📚</a></li>
+<li><a href="#code-mandatory-📦">Code mandatory 📦</a></li>
+<li><a href="#whats-next--🚀">What’s next ? 🚀</a></li>
+<li><a href="#contributors-👥">Contributors 👥</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="💻-corewar-🗡️">💻 Corewar 🗡️</h1>
+<p><img src="https://toro-nicolas.github.io/Corewar/preview.png" alt="Corewar"></p>
+<h2 id="table-of-contents-📑">Table of contents 📑</h2>
+<ul>
+<li><a href="#description-📝">Description</a></li>
+<li><a href="#usage-⚔️">Usage</a></li>
+<li><a href="#result-🚩">Result</a></li>
+<li><a href="#compilation-🛠">Compilation</a></li>
+<li><a href="#documentation-📚">Documentation</a></li>
+<li><a href="#code-mandatory-📦">Code mandatory</a></li>
+<li><a href="#whats-next--🚀">What’s next ?</a></li>
+<li><a href="#contributors-👥">Contributors</a></li>
+</ul>
+<h2 id="description-📝">Description 📝</h2>
+<p>The <strong>Corewar</strong> is a project carried out by <strong>groups of 2</strong> (see <a href="#contributors-">Contributors</a>, during our <strong>1st year</strong> in <a href="https://www.epitech.eu/"><strong>EPITECH</strong></a> Grand Ecole program.<br>
+Its purpose is to recreate in <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><strong>C</strong></a> a <a href="https://en.wikipedia.org/wiki/Core_War"><strong>Core War video game</strong></a>.<br>
+The aim of <strong>Corewar</strong> is to have robots/champions <strong>fight in an arena</strong> that functions as a <strong>virtual machine</strong>.<br>
+This project follows on from the <a href="https://github.com/toro-nicolas/robot-factory"><strong>Robot Factory</strong></a>, another school project aimed at <strong>creating robots/champions</strong> for the <strong>Corewar</strong>.</p>
+<h2 id="usage-⚔️">Usage ⚔️</h2>
+<p>You can run Corewar like this :</p>
+<pre class=" language-sh"><code class="prism  language-sh">./corewar -dump 1000 -n 1 -a 0 champion.cor -n 2 -a 200O champion.cor  
+</code></pre>
+<p>For more information, please see the help section.</p>
+<pre class=" language-sh"><code class="prism  language-sh">&gt; ./corewar --help  
+USAGE  
+ ./corewar [-dump nbr_cycle] [[-n prog_number][-a load_address] prog_name] ...  
+  
+DESCRIPTION  
+ -dump   nbr_cycle dumps the memory after the nbr_cycle execution (if the round isn't already over) with the following format: 32 bytes/line in hexadecimal (A0BCDEFE1DD3...)  
+        -n      prog_number sets the next program's number. By default, the first free number in the parameter order  
+        -a      load_address sets the next program's loading address. When no address is specified, optimize the addresses so that the processes are as far away from each other as possible. The addresses are MEM_SIZE modulo  
+</code></pre>
+<h2 id="result-🚩">Result 🚩</h2>
+<p>The result of this project is an <strong>almost perfect Corewar</strong>.<br>
+If you discover a <strong>problem</strong> or an <strong>error</strong>, don’t hesitate to <strong>create an issue</strong> and <strong>report it</strong> to us as soon as possible.</p>
+<h3 id="my.epitech.eu-result"><a href="http://my.epitech.eu">my.epitech.eu</a> result</h3>
+
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th align="center">Percentage</th>
+<th align="center">Numbers of tests</th>
+<th align="center">Crash</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Check binary</td>
+<td align="center">100%</td>
+<td align="center">1/1</td>
+<td align="center">No</td>
+</tr>
+<tr>
+<td><strong>Results</strong></td>
+<td align="center"><strong>100%</strong></td>
+<td align="center"><strong>1/1</strong></td>
+<td align="center"><strong>No</strong></td>
+</tr>
+</tbody>
+</table><h3 id="tests-and-code-coverage">Tests and code coverage</h3>
+<p>Functional tests were carried out with a <strong>bash tester</strong> and <strong>unit tests</strong> using <a href="https://criterion.readthedocs.io/en/master/intro.html">criterion</a>.<br>
+Unit tests are still to be performed, but a large part of the code is already covered:</p>
+<ul>
+<li>Lines: 99.9%</li>
+<li>Functions: 100%</li>
+<li>Branches: 45.5%</li>
+</ul>
+<p>You can run the tester with this command :</p>
+<pre class=" language-sh"><code class="prism  language-sh">./tester.sh  
+</code></pre>
+<p>You can compile the project and run the tester with this command :</p>
+<pre class=" language-sh"><code class="prism  language-sh">make tests  
+</code></pre>
+<p>You can compile the project and run the unit tests with this command :</p>
+<pre class=" language-sh"><code class="prism  language-sh">make tests_run  
+</code></pre>
+<p>For more details, please click <a href="https://toro-nicolas.github.io/Corewar/tests/test.html">here</a>.</p>
+<h2 id="compilation-🛠️">Compilation 🛠️</h2>
+<p>You can compile the project with this command :</p>
+<pre class=" language-sh"><code class="prism  language-sh">make  
+</code></pre>
+<p>If you want to debug the program, you can compile the project with this :</p>
+<pre class=" language-sh"><code class="prism  language-sh">make debug   
+</code></pre>
+<p>If you want clean the project, you can run this command :</p>
+<pre class=" language-sh"><code class="prism  language-sh">make fclean  
+</code></pre>
+<p>You can clean and compile the project with <code>make re</code> and for debugging <code>make re_debug</code></p>
+<p>You can compile the unit tests with this command :</p>
+<pre class=" language-sh"><code class="prism  language-sh">make unit_tests  
+</code></pre>
+<h2 id="documentation-📚">Documentation 📚</h2>
+<p>The documentation is accessible <a href="https://toro-nicolas.github.io/Corewar/html/">here</a>.</p>
+<p>You can generate the documentation with this command :</p>
+<pre class=" language-sh"><code class="prism  language-sh">make doc  
+</code></pre>
+<p>You need multiple package for generate them :</p>
+<ul>
+<li>doxygen</li>
+<li>doxygen-latex</li>
+<li>doxygen-doxywizard</li>
+<li>graphviz</li>
+</ul>
+<h2 id="code-mandatory-📦">Code mandatory 📦</h2>
+<ul>
+<li>You’ll need to create a branch where you’ll push your code. Once you’ve completed your tasks on this branch, we’ll work together to merge it and check that everything works.</li>
+<li>Every function you add must be code-style and documented.</li>
+<li>Before merging, you’ll need to check that all unit tests pass by running <code>make tests_run</code>.</li>
+<li>If the github actions don’t succeed, then ask yourself some questions</li>
+<li>Each commit will contain <code>[+]</code> or <code>[-]</code> or <code>[~]</code> followed by a message
+<ul>
+<li><code>[+]</code> : Added functionality</li>
+<li><code>[-]</code> : Delete feature</li>
+<li><code>[~]</code> : Feature modification</li>
+</ul>
+</li>
+</ul>
+<p><strong>Of course, in exceptional cases, we may depart from these rules.</strong></p>
+<h2 id="whats-next--🚀">What’s next ? 🚀</h2>
+<ul>
+<li>Recheck each instruction to ensure correct operation</li>
+<li>Add new instructions</li>
+<li>Add unit tests on each piece of code</li>
+</ul>
+<h2 id="contributors-👥">Contributors 👥</h2>
+<p>For this project, we were a group of <strong>2 people</strong>. Here are the people in the group:</p>
+<ul>
+<li><a href="https://github.com/ItsKarmaOff">Christophe VANDEVOIR</a> : also published the <a href="https://github.com/ItsKarmaOff/Corewar">Corewar</a></li>
+<li><a href="https://github.com/toro-nicolas">Nicolas TORO</a></li>
+</ul>
+
+    </div>
+  </div>
+</body>
+
+</html>

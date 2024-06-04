@@ -3,17 +3,21 @@
 ![Corewar](https://toro-nicolas.github.io/Corewar/preview.png)
 
 ## Table of contents 📑
-- [Description](#description-)
-- [Usage](#usage-%EF%B8%8F)
-- [Result](#result-)
-- [Compilation](#compilation-%EF%B8%8F)
-- [Documentation](#documentation-)
-- [Code mandatory](#code-mandatory-)
-- [Contributors](#contributors-)
+- [Description](https://github.com/toro-nicolas/Corewar/blob/main/README.md#description-)
+- [Usage](https://github.com/toro-nicolas/Corewar/blob/main/README.md#usage-%EF%B8%8F)
+- [Result](https://github.com/toro-nicolas/Corewar/blob/main/README.md#result-)
+- [Compilation](https://github.com/toro-nicolas/Corewar/blob/main/README.md#compilation-%EF%B8%8F)
+- [Documentation](https://github.com/toro-nicolas/Corewar/blob/main/README.md#documentation-)
+- [Code mandatory](https://github.com/toro-nicolas/Corewar/blob/main/README.md#code-mandatory-)
+- [What's next ?](https://github.com/toro-nicolas/Corewar/blob/main/README.md#whats-next--)
+- [Contributors](https://github.com/toro-nicolas/Corewar/blob/main/README.md#contributors-)
+
 
 ## Description 📝
-The **Corewar** is a project carried out by **groups of 2** (see [Contributors](#contributors-), during our **1st year** in [**EPITECH**](https://www.epitech.eu/) Grand Ecole program.  
-Its purpose is to recreate in [**C**](https://en.wikipedia.org/wiki/C_(programming_language)) a [**Core War video game**](https://en.wikipedia.org/wiki/Core_War).
+The **Corewar** is a project carried out by **groups of 2** (see [Contributors](https://github.com/toro-nicolas/Corewar/blob/main/README.md#contributors-), during our **1st year** in [**EPITECH**](https://www.epitech.eu/) Grand Ecole program.  
+Its purpose is to recreate in [**C**](https://en.wikipedia.org/wiki/C_(programming_language)) a [**Core War video game**](https://en.wikipedia.org/wiki/Core_War).  
+The aim of **Corewar** is to have robots/champions **fight in an arena** that functions as a **virtual machine**.  
+This project follows on from the [**Robot Factory**](https://github.com/toro-nicolas/robot-factory), another school project aimed at **creating robots/champions** for the **Corewar**.  
 
 
 ## Usage ⚔️
@@ -34,9 +38,11 @@ DESCRIPTION
         -a      load_address sets the next program's loading address. When no address is specified, optimize the addresses so that the processes are as far away from each other as possible. The addresses are MEM_SIZE modulo
 ```
 
+
 ## Result 🚩
 The result of this project is an **almost perfect Corewar**.  
 If you discover a **problem** or an **error**, don't hesitate to **create an issue** and **report it** to us as soon as possible.
+
 
 ### my.epitech.eu result
 
@@ -45,12 +51,13 @@ If you discover a **problem** or an **error**, don't hesitate to **create an iss
 | Check binary   |    100%    |       1/1        |    No    |
 | **Results**    |  **100%**  |     **1/1**      |  **No**  |
 
+
 ### Tests and code coverage
 Functional tests were carried out with a **bash tester** and **unit tests** using [criterion](https://criterion.readthedocs.io/en/master/intro.html).  
 Unit tests are still to be performed, but a large part of the code is already covered:
-- Lines: 100%
+- Lines: 99.9%
 - Functions: 100%
-- Branches:	45.2%
+- Branches:	45.5%
 
 You can run the tester with this command :
 ```sh
@@ -118,7 +125,14 @@ You need multiple package for generate them :
 
 **Of course, in exceptional cases, we may depart from these rules.**
 
+
+## What's next ? 🚀
+- Recheck each instruction to ensure correct operation
+- Add new instructions
+- Add unit tests on each piece of code
+
+
 ## Contributors 👥
 For this project, we were a group of **2 people**. Here are the people in the group:
-- [Christophe VANDEVOIR](https://github.com/ItsKarmaOff)
+- [Christophe VANDEVOIR](https://github.com/ItsKarmaOff) : also published the [Corewar](https://github.com/ItsKarmaOff/Corewar)
 - [Nicolas TORO](https://github.com/toro-nicolas)
